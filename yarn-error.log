@@ -1,0 +1,103 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Tools\cmder\bin;C:\Tools\cmder\vendor\bin;C:\Tools\cmder\vendor\git-for-windows\cmd;C:\Tools\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Tools\cmder\vendor\conemu-maximus5;C:\Tools\cmder\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\PowerShell\6\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Users\Blacklist\AppData\Local\Yarn\bin;C:\Users\Blacklist\.yarn\bin;C:\Users\Blacklist\AppData\Local\Microsoft\WindowsApps;C:\Users\Blacklist\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Blacklist\AppData\Local\Programs\Fiddler;C:\Users\Blacklist\AppData\Roaming\npm;C:\Users\Blacklist\AppData\Local\Yarn\bin;C:\Users\Blacklist\.yarn\bin;C:\Tools\cmder\vendor\git-for-windows\mingw64\bin;C:\Tools\cmder\vendor\git-for-windows\usr\bin;C:\Tools\cmder
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.18.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+
+npm manifest: 
+  {
+    "name": "pluralsight-project-build-an-album-store-product-page-with-angular",
+    "version": "0.0.2",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "./node_modules/.bin/mocha ./src/spec/mocha-specs --recursive --reporter spec",
+      "test:part2": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part2/ --recursive --reporter spec",
+      "test:part3": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part3/ --recursive --reporter spec",
+      "test:part4": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part4/ --recursive --reporter spec",
+      "test:part5": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part5/ --recursive --reporter spec",
+      "test:part6": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part6/ --recursive --reporter spec",
+      "test:part7": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part7/ --recursive --reporter spec",
+      "tutor-test": "./node_modules/.bin/mocha ./src/spec/mocha-specs --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run",
+      "tutor-test:part2": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part2/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part2",
+      "tutor-test:part3": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part3/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part3",
+      "tutor-test:part4": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part4/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part4",
+      "tutor-test:part5": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part5/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part5",
+      "tutor-test:part6": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part6/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part6",
+      "tutor-test:part7": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part7/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part7",
+      "mocha-spec": "./node_modules/.bin/mocha ./src/spec/mocha-specs/ --reporter spec",
+      "mocha-json": "./node_modules/.bin/mocha ./src/spec/mocha-specs/ --reporter json",
+      "karma-spec": "ng test --config tutor-karma.conf.js --single-run",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "5.2.0",
+      "@angular/common": "5.2.0",
+      "@angular/compiler": "5.2.0",
+      "@angular/core": "5.2.0",
+      "@angular/forms": "5.2.0",
+      "@angular/http": "5.2.0",
+      "@angular/platform-browser": "5.2.0",
+      "@angular/platform-browser-dynamic": "5.2.0",
+      "@angular/router": "5.2.0",
+      "core-js": "2.4.1",
+      "rxjs": "5.5.6",
+      "zone.js": "0.8.12"
+    },
+    "devDependencies": {
+      "@angular/cli": "1.6.5",
+      "@angular/compiler-cli": "5.2.0",
+      "@angular/language-service": "5.2.0",
+      "@phenomnomnominal/tsquery": "2.1.1",
+      "@types/jasmine": "2.8.3",
+      "@types/jasminewd2": "2.0.2",
+      "@types/node": "6.0.60",
+      "bootstrap": "3.3.7",
+      "chai": "4.0.1",
+      "cheerio": "1.0.0-rc.2",
+      "codelyzer": "4.0.1",
+      "cssom": "0.3.0",
+      "jasmine-core": "2.8.0",
+      "jasmine-spec-reporter": "4.2.1",
+      "jasmine2-custom-message": "0.8.2",
+      "karma": "2.0.0",
+      "karma-chrome-launcher": "2.2.0",
+      "karma-cli": "1.0.1",
+      "karma-coverage-istanbul-reporter": "1.2.1",
+      "karma-jasmine": "1.1.0",
+      "karma-jasmine-html-reporter": "0.2.2",
+      "karma-nightmare": "0.4.13",
+      "karma-spec-reporter": "0.0.31",
+      "karma-structured-json-reporter": "1.0.0",
+      "minimist": "1.2.0",
+      "mocha": "3.4.2",
+      "parse5": "5.1.0",
+      "protractor": "5.1.2",
+      "ts-node": "4.1.0",
+      "tslint": "5.9.1",
+      "typescript": "2.5.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
